@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#657ba0"
+    tools.context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/avengers_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textSize="44sp"
+        android:text=" Michael B Jordan"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:src="@drawable/michael"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#38312f"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Movies: Creed, Creed II, Black Panther, Fantastic Four"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#38312f"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Awards:2 NAACP image award"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#38312f"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Haters: Wolf, Devin, Uncle Creg"
+        android:textSize="25dp"/>
+
+
+
+
+
+</LinearLayout>
+
+
+
